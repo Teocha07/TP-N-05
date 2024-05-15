@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario de Autos</title>
+</head>
+
+<body>
+    <header>
+        <h1>Registro de Clientes - Temática: Autos </h1>
+    </header>
+
+    <main>
+        <form action="/registro" method="post">
+            <div>
+                <label for="nombre">Nombre:</label>
+                <input type="text" id="nombre" name="nombre" required> <!-- tipo texto-->
+            </div>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required> <!-- tipo email -->
+
+           
+            <div>
+
+                <label for="fecha_nacimiento">Fecha de Nacimiento</label>
+                <input type="date" id="fecha_nacimiento" name="fecha_nacimiento">
+            </div>
+            <label for="dni">DNI*</label>
+            <input type="text" id="dni" name="dni" required>
+            <div>
+                <label for="telefono">Teléfono</label>
+                <input type="tel" id="telefono" name="telefono">
+            </div>
+            <label for="usuario_x">Usuario de X</label>
+            <input type="text" id="usuario_x" name="usuario_x">
+            <div>
+                <label for="usuario_instagram">Usuario de Instagram</label>
+                <input type="text" id="usuario_instagram" name="usuario_instagram"></input>
+            </div>
+            <div>
+
+                <label for="Provincia">Provincia</label>
+                <select name="Provincia">
+                    <option value="CT">Catamarca</option>
+                    <option value="CH">Chaco</option>
+                    <option value="CB">Chubut</option>
+                    <option value="CD">Cordoba</option>
+                    <option value="CR">Corrientes</option>
+                    <option value="ER">Entre rios</option>
+                    <option value="FO">Formosa</option>
+                    <option value="JY">Jujuy</option>
+                    <option value="LP">La pampa</option>
+                    <option value="LR">La rioja</option>
+                    <option value="MZ">Mendoza</option>
+                    <option value="MN">Misiones</option>
+                    <option value="NQ">Neuquen</option>
+                    <option value="RN">Rio Negro</option>
+                    <option value="SA">Salta</option>
+                    <option value="SJ">San juan</option>
+                    <option value="SL">San luis</option>
+                    <option value="SC">Santa cruz</option>
+                    <option value="SF">Santa fe</option>
+                    <option value="SE">Santiago del estero</option>
+                    <option value="TF">Tierra del fuego</option>
+                    <option value="TM">Tucuman</option>
+                    <option value="BA">Buenos Aires</option>
+                    <option value="CABA">Ciudad autonoma de buenos aires</option>
+                </select>
+            </div>
+            <label for="Autos">¿Qué autos te gustan?</label><br>
+            <input type="checkbox" id="volkswagen-Golf-M4" name="deportes" value="volkswagen Golf M4">
+            <label for="volkswagen-Golf-M4">volkswagen Golf M4</label><br>
+            <img src="" alt="">
+            <input type="checkbox" id="Toyota-Corolla" name="Autos" value="Toyota Corolla">
+            <label for="Toyota-Corolla">Toyota Corolla</label><br>
+            <input type="checkbox" id="Volkswagen-Bora-1.8t" name="Autos" value="Volkswagen Bora 1.8t">
+            <label for="Volkswagen-Bora-1.8t">Volkswagen Bora 1.8t</label><br>
+            <input type="checkbox" id="Chevrolet-corsa" name="Autos" value="Chevrolet Corsa">
+            <label for="Chevrolet-Corsa">Chevrolet corsa</label><br>
+            <input type="checkbox" id="Volkswagen-Vento-GLI" name="Autos" value="Volkswagen Vento GLI">
+            <label for="Volkswagen-Vento-GLI">Volkswagen Vento GLI</label><br>
+            <input type="submit" value="Registrar">
+
+    </main>
+    <footer>Mateo Chaparro</footer>
+</body>
+
+</html>
